@@ -1,0 +1,14 @@
+source: "C:\\Users\\DZ\\Documents\\Virtual Machines\\rockybase\\rockybase.vmx"
+executable: "C:\\Program Files\\VMware\\VMware Workstation\\vmrun.exe"
+
+copies:
+  - name: registry
+    linked: true
+    started: true
+    dest: "C:\\Users\\DZ\\Documents\\Virtual Machines"
+
+  - name: gitlab
+    linked: true
+    started: false
+    dest: "C:\\Users\\DZ\\Documents\\Virtual Machines"
+
